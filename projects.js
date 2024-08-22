@@ -54,13 +54,9 @@ function displayProject(){
             var src = document.createElement('video');
             src.id = "video"
             src.autoplay = true;
-            var source = document.createElement('source')
-            source.src = project_display[curr_display].ScreenShot;
-            source.type = "video/mp4";
+            src.src = project_display[curr_display].ScreenShot;
     
             document.getElementById("section_image").appendChild(src);
-            document.getElementById("video").appendChild(source);
-    
         }
     } else {
         var img = document.createElement('img');
