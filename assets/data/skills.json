@@ -1,0 +1,88 @@
+{
+    "Skills":[
+    {
+        "skill":"",
+        "logo":"./assets/images/skill_logos/CSS3_Logo.svg",
+        "level":"",
+        "description": ""
+    },
+    {
+        "skill":"",
+        "logo":"./assets/images/skill_logos/HTML5_logo.png",
+        "level":"",
+        "description":""
+    },
+    {
+        "skill":"Javascript",
+        "logo":"./assets/images/skill_logos/JS-logo.png",
+        "level":"6",
+        "description":"Is able to created functions and manipulate the DOM at the most basic to intermediate level. Will need to check documentation from time to time."
+    },
+    {
+        "skill":"Jquery",
+        "logo":"./assets/images/skill_logos/jquery_logo.png",
+        "level":"",
+        "description":""
+    },
+    {
+        "skill":"Python",
+        "logo":"./assets/images/skill_logos/Python-Emblem.png",
+        "level":"",
+        "description":""
+    },
+    {
+        "skill":"Java",
+        "logo":"./assets/images/skill_logos/java-logo.png",
+        "level":"",
+        "description":""
+    },
+    {
+        "skill":"MySQL",
+        "logo":"./assets/images/skill_logos/MYSQL_logo.png",
+        "level":"",
+        "description":""
+    },
+    {
+        "skill":"Power BI",
+        "logo":"./assets/images/skill_logos/powerBI_logo.png",
+        "level":"3",
+        "description":"Currently taking the Microsoft powerBI course. I understand the basics and how to transform the data and create meaningful visuals."
+    },
+    {
+        "skill":"Visual Studio Code",
+        "logo":"./assets/images/skill_logos/visual-studio-code-logo.png",
+        "level":"9",
+        "description":"General tool used in programming. When I create projects I will at most always use VScode."
+    },
+    {
+        "skill":"Eclipse",
+        "logo":"./assets/images/skill_logos/eclipse-11-logo.png",
+        "level":"8",
+        "description":"I generally use Eclipse for Java front end development."
+    },
+    {
+        "skill":"Excel",
+        "logo":"./assets/images/skill_logos/excel-logo.png",
+        "level":"8",
+        "description":"Utilized in data science and data mining projects in school. I am able to clean and present data but still trying to understand pivot tables at the moment."
+    },
+    {
+        "skill":"Photoshop",
+        "logo":"./assets/images/skill_logos/adobe-photoshop-logo.png",
+        "level":"6",
+        "description":"I am knowledgable in the tools and what they do. Am able to cleanly do edits and removals in photoshop. Is still learning special tools and tricks"
+    },
+    {
+        "skill":"Canva",
+        "logo":"./assets/images/skill_logos/Canva-icon.png",
+        "level":"10",
+        "description":"Utilized this tool in order to create graphics to be placed into websites. When I need quick edits I use Canva over Photoshop."
+    },
+    {
+        "skill":"Figma",
+        "logo":"./assets/images/skill_logos/figma-logo.png",
+        "level":"8",
+        "description":"Can design wireframes and animated prototypes in figma. I use this tool most of the type during school and personal projects."
+    }
+    ]
+}

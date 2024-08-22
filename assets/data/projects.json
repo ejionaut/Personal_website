@@ -1,0 +1,132 @@
+{
+    "projects":[
+        {
+            "Title":"Web Development",
+            "entities":[
+                {
+                    "Name":"Anime Recommendator: Web Application",
+                    "ScreenShot":"./assets/images/project_scr/recommandator_app.png",
+                    "Used":["HTML","CSS","JS","Node.Js","Python"],
+                    "Tags":["Data Analytics","Web Scrapping", "Responsive Design", "Flexbox", "Learning Project", "Functional"],
+                    "Date":"Current Project",
+                    "Media":"image",
+                    "Description":"An application that takes in online reviews processes it and based from the user inputs will recommend certain shows that the user will likely enjoy.",
+                    "LiveLink":"",
+                    "RepoLink":""
+                },
+                {
+                    "Name":"Quiz Application",
+                    "ScreenShot":"./assets/images/project_scr/quiz_app.png",
+                    "Used":["HTML","CSS","JS","JQuery"],
+                    "Tags":["Front End Mentor","Responsive Design", "Flexbox", "Learning Project", "Functional"],
+                    "Date":"Current Project",
+                    "Media":"image",
+                    "Description":"A project that allows the user to choose a quiz, take the quiz and be scored. This project required me to learn and apply Jquery and advanced javascript techniques.",
+                    "LiveLink":"",
+                    "RepoLink":"https://github.com/ejionaut/FrontEndMentor_Projects/tree/main/Quiz%20Application%20(On%20Progress)"
+                },{
+                    "Name":"Year Calculator App",
+                    "ScreenShot":"./assets/images/project_scr/calculator_app.png",
+                    "Tags":["Front End Mentor", "Responsive Design", "Flexbox", "Learning Project", "Functional"],
+                    "Used":["HTML","CSS","JS"],
+                    "Media":"image",
+                    "Date":"Aug 18, 2024",
+                    "Description":"A web application that allows you to calculate the difference from the current date to the indicated date. ",
+                    "LiveLink":"https://66c283c22e79771020e44e1a--illustrious-pastelito-c424f6.netlify.app/",
+                    "RepoLink":"https://github.com/ejionaut/FrontEndMentor_Projects/tree/main/Age%20Calculator"
+                },
+                {
+                    "Name":"Social Proof Section Solution",
+                    "ScreenShot":"./assets/images/project_scr/Webpage ss.png",
+                    "Used":["HTML","CSS"],
+                    "Media":"image",
+                    "Tags":["Front End Mentor", "Flexbox", "Early Challenge"],
+                    "Date":"Aug 5, 2022",
+                    "Description":"An early solution for a front end mentor task. This project utilized pure HTML and CSS in order to replicate the given design. This project helped in my learning towards more precise positioning of objects.",
+                    "LiveLink":"https://loquacious-puppy-ce1274.netlify.app/",
+                    "RepoLink":"https://github.com/ejionaut/Social-Proof-Section"
+                },
+                {
+                    "Name":"Youtube Clone",
+                    "ScreenShot":"./assets/images/project_scr/Youtube_Clone.png",
+                    "Used":["HTML","CSS"],
+                    "Media":"image",
+                    "Tags":["Responsive Design", "Grid", "Learning Project"],
+                    "Date":"Aug 1, 2022",
+                    "Description":"My take on a youtube clone. This project further enchanced my understanding towards responsive design and mobile first approach.",
+                    "LiveLink":"",
+                    "RepoLink":"https://github.com/ejionaut/Youtube-Clone"
+                }
+            ]
+        },{
+            "Title":"Data Analysis",
+            "entities":[{
+                "Name":"Anime Recommendator: Data Preparation / Processing",
+                "ScreenShot":"./assets/images/project_scr/recommandator_data.png",
+                "Media":"image",
+                "Used":["Python","Colab","Scikit-Learn"],
+                "Tags":["Data Processing","Data Analytics", "Web Scrapping"],
+                "Date":"Aug 21, 2024",
+                "Description":"Collection, cleaning and processing of data that was used in the web application for determining the likeliness of a user to enjoy an anime based from other user reviews.",
+                "RepoLink":"https://colab.research.google.com/drive/1bQSHeIOABqL5Mc23Du2lh94P3pq-KNBG?usp=sharing",
+                "DataLink":"./assets/data/Anime_Reviews_cleaned.csv"
+            }]
+        },{
+            "Title":"Designing / Creatives",
+            "entities":[{
+                "Name":"School ID Lace Design",
+                "ScreenShot":"./assets/images/project_scr/idlace2full(1).png",
+                "Media":"image",
+                "Used":["Photoshop"],
+                "Tags":["Graphics", "Design"],
+                "Date":"Feb 15, 2023",
+                "Description":"The computer science course early in the year 2023 had no specific ID lace. I designed, created and sold the ID laces specifically for computer science students",
+                "RepoLink":""
+            },
+            {
+                "Name":"Mobile Application - NavigaTour",
+                "ScreenShot":"./assets/images/project_scr/Navigatour.mp4",
+                "Media":"video",
+                "Used":["Figma","Photoshop"],
+                "Tags":["Mobile","Functional", "Design"],
+                "Date":"Sept 23, 2023",
+                "Description":"An application which aids the client ( Tourists ) when going to different places. Designed with Figma and Photoshop",
+                "RepoLink":""
+            },
+            {
+                "Name":"Mobile Application - HeadMaster",
+                "ScreenShot":"./assets/images/project_scr/Head Master.png",
+                "Media":"image",
+                "Used":["Figma"],
+                "Tags":["Mobile","Design"],
+                "Date":"Oct 26, 2023",
+                "Description":"An application which targets landlords and their clients. This application makes everything convenient for its users reducing the additional steps.",
+                "RepoLink":"https://www.figma.com/design/Fd47Lpcc1WWpNXTqrzBwZu/Untitled?node-id=0-1&t=R56oswWO0QhP6svC-1"
+            },
+            {
+                "Name":"Masquerave - Poster",
+                "ScreenShot":"./assets/images/project_scr/Masquerave.png",
+                "Media":"image",
+                "Used":["Photoshop"],
+                "Tags":["Poster","Graphics"],
+                "Date":"Mar 12, 2020",
+                "Description":"A design which combines both a masquerade party and a common rave.",
+                "RepoLink":""
+            }]
+        },{
+            "Title":"General Programming",
+            "entities":[
+                {
+                "Name":"",
+                "ScreenShot":"",
+                "Media":"image",
+                "Used":"",
+                "Date":"",
+                "Description":"",
+                "LiveLink":"",
+                "RepoLink":""
+            }
+        ]
+        }
+    ]
+}
