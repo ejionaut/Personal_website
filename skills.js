@@ -2,7 +2,7 @@ var data = getData();
 
 
 async function getData(){
-    let url = './assets/data/skills.json';
+    let url = 'assets/data/skills.json';
     var skills = [];
     try {
         let res = await fetch(url);
