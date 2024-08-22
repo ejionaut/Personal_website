@@ -118,7 +118,7 @@
             "entities":[
                 {
                 "Name":"Classification of Pine Tree Health with Deep Learning Models (Thesis)",
-                "ScreenShot":"./assets/images/project_scr/ML_Thesis.png",
+                "ScreenShot":"./assets/images/project_scr/ML_Thesis.jpg",
                 "Media":"image",
                 "Used":["Model Zoo","Python"],
                 "Tags":["Deep Learning","FRCNN","SSD", "Drone Images", "Thesis"],
