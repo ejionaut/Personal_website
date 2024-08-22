@@ -117,12 +117,13 @@
             "Title":"General Programming",
             "entities":[
                 {
-                "Name":"",
-                "ScreenShot":"",
+                "Name":"Classification of Pine Tree Health with Deep Learning Models (Thesis)",
+                "ScreenShot":"./assets/images/project_scr/ML_Thesis.png",
                 "Media":"image",
-                "Used":"",
-                "Date":"",
-                "Description":"",
+                "Used":["Model Zoo","Python"],
+                "Tags":["Deep Learning","FRCNN","SSD", "Drone Images", "Thesis"],
+                "Date":"May 10, 2024",
+                "Description":"Using Tensorflow Model Zoo I configured the FRCNN and SSD model to be able to accurately classify the given pine trees.",
                 "LiveLink":"",
                 "RepoLink":""
             }
