@@ -118,14 +118,17 @@ function displayProject(){
     setButtons(proj_title);
 
     if(project_display.length > 1){
-        var container = document.getElementById("project-nav");
+        var container = document.getElementById("section_image");
+        var nav_container = document.createElement("div");
+        nav_container.id = "nav_container"
+        container.appendChild(nav_container);
 
         if(curr_display >= project_display.length -1){
             const pbutton = document.createElement("div");
             pbutton.classList.add("navbut");
             pbutton.innerHTML = "<"
             pbutton.id= "prev";
-            container.insertBefore(pbutton, container.firstChild);
+            nav_container.appendChild(pbutton);
             setPrevFunctions();
 
         } else if(curr_display == 0){
@@ -133,7 +136,7 @@ function displayProject(){
             nbutton.classList.add("navbut");
             nbutton.innerHTML = ">"
             nbutton.id= "nxt";
-            container.appendChild(nbutton);
+            nav_container.appendChild(nbutton);
             setNextFunction();
 
         } else {
@@ -146,8 +149,8 @@ function displayProject(){
             nbutton.classList.add("navbut");
             pbutton.classList.add("navbut");
 
-            container.insertBefore(pbutton, container.firstChild);
-            container.appendChild(nbutton);
+            nav_container.appendChild(pbutton);
+            nav_container.appendChild(nbutton);
             setPrevFunctions();
             setNextFunction();
         }       

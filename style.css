@@ -278,7 +278,7 @@ h3 {
     align-items: center;
     padding: 2rem;
     column-gap: 3rem;
-    width: 120rem;
+    width: 100rem;
 }
 
 .project_img {
@@ -286,7 +286,7 @@ h3 {
 }
 
 .project_img img {
-    object-fit: contain;
+    width: inherit;
     height: 40rem;
 }
 
@@ -306,6 +306,13 @@ h3 {
     justify-content: center;
     font-size: 5ch;
     color: white;
+}
+
+#nav_container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1.5rem;
 }
 
 .project-desc {
@@ -519,7 +526,7 @@ footer p {
     }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (min-width: 601px)and (max-width: 900px) {
 
     main {
         height: 70rem;
@@ -685,25 +692,21 @@ footer p {
 
     .project-buttons {
         flex-direction: column;
+        height: 150rem;
     }
 
-    #section_image img {
-        width: 20rem;
+    #section_image img, .project_img video {
+        width: inherit;
+        height: auto;
     }
 
-    #section_image{
-        position: relative;
-        top: -5rem;
-        left: -10rem;
-    }
-
-    .project_img video{
-        width: 20rem;
-        height: 40rem;
+    #section_image {
+        width: 30rem;
+        margin-bottom: 1rem;
     }
     
     .project-display{
-        width: 10%;
+        width: 50%;
     }
 
     .details_section{
@@ -716,6 +719,14 @@ footer p {
 
     .navbut{
         min-width: 6rem;
+    }
+
+    #tags_div {
+        flex-direction:column;
+    }
+
+    #used_div {
+        font-size: 1.4ch;
     }
     
 }
