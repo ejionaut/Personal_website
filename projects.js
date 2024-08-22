@@ -63,11 +63,9 @@ function displayProject(){
         img.src = project_display[curr_display].ScreenShot;
         document.getElementById("section_image").appendChild(img);
     }
-    
-    
 
     const section_details = document.createElement("div");
-    section_image.classList.add("details_section");
+    section_details.classList.add("details_section");
     section_details.id = "details_section"
     document.getElementById("project-display").appendChild(section_details);
 
