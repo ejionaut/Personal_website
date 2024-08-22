@@ -162,6 +162,7 @@ function setButtons(title){
             if(project_display[curr_display].LiveLink !== ""){
                 var hyperlink = document.createElement('a');
                 var linktext = document.createTextNode("Live Link");
+                hyperlink.target = "_blank"
                 hyperlink.title = "Live Link";
                 hyperlink.href=project_display[curr_display].LiveLink;
 
@@ -174,6 +175,7 @@ function setButtons(title){
                 var hyperlink = document.createElement('a');
                 var linktext = document.createTextNode("Repository Link");
                 hyperlink.appendChild(linktext);
+                hyperlink.target = "_blank"
                 hyperlink.title = "Repository Link";
                 hyperlink.href=project_display[curr_display].RepoLink;
 
@@ -186,6 +188,7 @@ function setButtons(title){
                 var hyperlink = document.createElement('a');
                 var linktext = document.createTextNode("Colab Link");
                 hyperlink.appendChild(linktext);
+                hyperlink.target = "_blank"
                 hyperlink.title = "Repository Link";
                 hyperlink.href = project_display[curr_display].RepoLink;
 
@@ -196,6 +199,7 @@ function setButtons(title){
                 var hyperlink = document.createElement('a');
                 var linktext = document.createTextNode("Download Dataset");
                 hyperlink.appendChild(linktext);
+                hyperlink.target = "_blank"
                 hyperlink.title = "Repository Link";
                 hyperlink.href = project_display[curr_display].DataLink;
 
@@ -208,6 +212,7 @@ function setButtons(title){
                 var hyperlink = document.createElement('a');
                 var linktext = document.createTextNode("Repository Link");
                 hyperlink.appendChild(linktext);
+                hyperlink.target = "_blank"
                 hyperlink.title = "Repository Link";
                 hyperlink.href = project_display[curr_display].RepoLink;
 
@@ -220,6 +225,7 @@ function setButtons(title){
                 var hyperlink= document.createElement('a');
                 var linktext = document.createTextNode("Live Link");
                 hyperlink.append(linktext);
+                hyperlink.target = "_blank"
                 hyperlink.title = "Live Link";
                 hyperlink.href = project_display[curr_display].LiveLink;
                 
@@ -230,6 +236,7 @@ function setButtons(title){
                 var hyperlink = document.createElement('a');
                 var linktext = document.createTextNode("Repository Link");
                 hyperlink.title = "Repository Link";
+                hyperlink.target = "_blank"
                 hyperlink.appendChild(linktext);
                 hyperlink.href = project_display[curr_display].RepoLink;
 
