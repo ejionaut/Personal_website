@@ -352,6 +352,7 @@ footer {
 
     .project {
         padding: 0 2rem 0 2rem;
+        min-height: 40rem;
     }
 
     .project-buttons, #btns_div, #used_div {
@@ -405,5 +406,9 @@ footer {
 
     main {
         height: 130rem;
+    }
+
+    #section_image {
+        width: 40%
     }
 }
