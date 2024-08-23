@@ -240,13 +240,37 @@ footer {
 }
 
 @media screen and (min-width: 500px) {
-    .center-header {
-        flex-direction: row;
-    }
 
     .center-header{
+        flex-direction: row;
         column-gap: 4rem;
         font-size: 2ch;
+    }
+
+    .center-header a:hover{
+        text-decoration: underline white;
+    }
+
+    .resume-button {
+        transition: ease-in-out color 0.5s, ease-in-out background-color 0.5s, ease-in-out border 0.5s;
+    }
+
+    .resume-button:hover {
+        background-color: white;
+        color: black;
+        border: 0.1rem solid black;
+    }
+
+    .socialmed:hover {
+        transform: rotate(360deg);
+    }
+
+    #skill-box img{
+        transition: ease-in-out transform 0.5s;
+    }
+
+    #skill-box img:hover{
+        transform: rotate(15deg);
     }
 
     main {
@@ -261,6 +285,17 @@ footer {
 
     .head-container p{
         font-size: 3ch;
+    }
+
+    .projbutton {
+        cursor: pointer;
+        transition: ease-in-out border 0.3s, ease-in-out color 0.3s;
+    }
+
+    .projbutton:hover {
+        border: 0.1rem solid rgb(117, 161, 181);
+        color: rgb(117, 161, 181);
+
     }
 
 }
