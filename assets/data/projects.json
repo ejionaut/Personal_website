@@ -73,14 +73,15 @@
             }]
         },{
             "Title":"Designing / Creatives",
-            "entities":[{
-                "Name":"School ID Lace Design",
-                "ScreenShot":"./assets/images/project_scr/idlace2full(1).png",
+            "entities":[
+            {
+                "Name":"Computer Science Field Trip Tee",
+                "ScreenShot":"https://drive.google.com/file/d/1nIY2UAhEQW7seKX4a5St5rVBOxRi0oFn/view?usp=sharing",
                 "Media":"image",
-                "Used":["Photoshop"],
-                "Tags":["Graphics", "Design"],
-                "Date":"Feb 15, 2023",
-                "Description":"The computer science course early in the year 2023 had no specific ID lace. I designed, created and sold the ID laces specifically for computer science students",
+                "Used":["Canva","Photoshop"],
+                "Tags":["Design"],
+                "Date":"Dec 12, 2023",
+                "Description":"A simple t-shirt layout design.",
                 "RepoLink":""
             },
             {
@@ -102,6 +103,16 @@
                 "Date":"Oct 26, 2023",
                 "Description":"An application which targets landlords and their clients. This application makes everything convenient for its users reducing the additional steps.",
                 "RepoLink":"https://www.figma.com/design/Fd47Lpcc1WWpNXTqrzBwZu/Untitled?node-id=0-1&t=R56oswWO0QhP6svC-1"
+            },
+            {
+                "Name":"School ID Lace Design",
+                "ScreenShot":"./assets/images/project_scr/idlace2full(1).png",
+                "Media":"image",
+                "Used":["Photoshop"],
+                "Tags":["Graphics", "Design"],
+                "Date":"Feb 15, 2023",
+                "Description":"The computer science course early in the year 2023 had no specific ID lace. I designed, created and sold the ID laces specifically for computer science students",
+                "RepoLink":""
             },
             {
                 "Name":"Masquerave - Poster",
@@ -126,6 +137,28 @@
                 "Description":"Using Tensorflow Model Zoo I configured the FRCNN and SSD model to be able to accurately classify the given pine trees.",
                 "LiveLink":"",
                 "RepoLink":""
+            },
+            {
+                "Name":"A Computer Unit Reservation System",
+                "ScreenShot":"./assets/images/project_scr/reservation_system.png",
+                "Media":"image",
+                "Used":["Java","JavaFX"],
+                "Tags":["Server - Client", "School Project"],
+                "Date":"Apr 10, 2024",
+                "Description":"A server client program wherein the user (student) will be able to reserve a designated computer unit and check their reservations while the user (teacher) should be able to view the said reservations and either accept the reservation or not. ",
+                "LiveLink":"",
+                "RepoLink":"https://github.com/ejionaut/Common_Programming/tree/main/Computer_Unit_Reservation"
+            },
+            {
+                "Name":"Gauss Jordan Elimination Calculator",
+                "ScreenShot":"./assets/images/project_scr/gauss-jordan-calc.png",
+                "Media":"image",
+                "Used":["Java"],
+                "Tags":["Numerical Methods","Java"],
+                "Date":"Oct 16, 2022",
+                "Description":"A simple calculator that enables the user to input the number of rows and columns as well as its values. The application will then return the corresponding results.",
+                "LiveLink":"",
+                "RepoLink":"https://github.com/ejionaut/NumericalMethodsProject"
             }
         ]
         }
