@@ -37,6 +37,12 @@
         "description":""
     },
     {
+        "skill":"JavaFX",
+        "logo":"./assets/images/skill_logos/JavaFXlogo.png",
+        "level":"",
+        "description":""
+    },
+    {
         "skill":"MySQL",
         "logo":"./assets/images/skill_logos/MYSQL_logo.png",
         "level":"",
